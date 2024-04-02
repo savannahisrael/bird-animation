@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - This design needs a little something...</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Put a <span>bird</span> on it</h1>
+
+<svg class="bg" viewBox="0 0 800 600" preserveAspectRatio="xMinYMax meet" fill="none" stroke="#cacbaf" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+  <g class="bird">
+    <path class="legs" d="M149.9 360.6s12.6 34.9 9.6 53.9c-13-27-32-40-68-41 28 8 31 25 30 35-11-16-35.3-25.9-58.2-21-22.8 5-62.8 16-86.8 77"/>
+    <path class="body" fill="#004242" d="M3 232.8s10.5-7.3 11-26.8c2-28 9-40 16-46s24-24 62-6 48 26 81 23 75 71.5 77 133.2S231 489 259 537c-9 8-59 58-59 58s-11.5-52.5 6.5-110.5 24-68 20-88-17-25-61-32-73-45-84-71-8-47-29-58C36.2 227 3 232.8 3 232.8z"/>
+
+    <path class="inner" d="M4.7 231.3s10.8.2 20.8-21.8 9.6-53.5 41.3-63.3"/>
+    <path class="inner" d="M28.6 201.6c7.9-15.1 28-53.9 73.9-42.5"/>
+    <path class="inner" d="M44.3 177.4c14.2-8.9 34.2-14.9 61.3.3 23.2 13.1 49 24.8 67.3-.5"/>
+    <path class="inner" d="M14.8 225.8c10.7-6.3 32.7-19.3 58.7-8.3s37.3 42 42.6 57.5 15.7 66.7 83.5 95.6"/>  
+
+    <g class="wingGroup">
+      <path class="wing" fill="#004242" d="M172.9 177.3s33.6 103.7 77.1 133 61.5-9.7 72.5-25.7 79-124 103-281c-218 160.9z"/>
+      <path class="wing" d="M172.9,177.3c0,0,34.6-12.8,252.6-173.8"/>
+      <path class="featherEdge" d="M275 320.6c45.5-6.1 94.5-201.1 104-283" />
+      <path class="feather" d="m307.1 288.9 1.2 16.1"/>
+      <path class="feather" d="m323.1 255.7 3.9 21.9"/>
+      <path class="feather" d="m335 224.2 13.3 16.2"/>
+      <path class="feather" d="m343.8 196.9 20.6 10.6"/>
+      <path class="feather" d="m352.1 168.4 27.7 2.9"/>
+      <path class="feather" d="m359.4 140.1 33.6-4.7"/>
+      <path class="feather" d="m366.8 108.2 38.5-12.1"/>
+      <path class="feather" d="m373.6 73.4 41.9-17.3"/>
+    </g>
+
+    <path class="tail" d="M244.4 551s-17.9-15.5-15.9-68.5 19-79.8 21.5-152.9"/>
+    <path class="tail" d="M219.8 575.3s-16.1-67.6-.7-130.2"/>
+  </g>
+</svg>
+
+<svg stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+  <g class="downArrow" fill="none" stroke="#cacbaf">
+    <circle cx="0" cy="22" r="20" fill="#004242" />
+    <path d="M-4,20 0,24 4,20" />
+  </g>  
+</svg>
+
+<div class="scrollDistance"></div>
+<!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='./DrawSVGPlugin.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js'></script>
+<script src='./SplitText.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

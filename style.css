@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+
+html, body {
+  opacity:0;
+  width:100%;
+  height:100%;
+  background:#004242;
+  font-family: 'Source Serif Pro', serif;
+}
+
+svg {
+  overflow:visible;
+  position:fixed;
+  width:100%;
+  height:600px;
+  bottom:0;
+}
+
+.downArrow {
+  cursor:pointer;
+  transform:translate(50vw, 425px);
+}
+
+.scrollDistance {
+  width:100%;
+  height:300vh;
+}
+
+h1 {
+  font-size:75px;
+  color:#002e2e;
+  position:fixed;
+  left:50%;
+  top:50%;
+  width:240px;
+  transform:translate(-45%, -50%);
+}
+
+h1 span {
+  display:block;
+  font-size:1.67em;
+  line-height:1.12em;
+  margin-bottom:-0.12em;
+}
